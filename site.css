@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(movie.png);
+  background-size: cover;
+  font-family: 'Arimo', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #010b26;
+}
+
+#movieList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#listItems{
+  list-style: none;
+}
+
+#imgDiv{
+  margin: 4%;
+}
+#pictures{
+  height: 250px;
+  width: 190px;
+}
+.card-text{
+  font-family: 'Nosifer', cursive;
+  color: rgb(13, 13, 13);
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+}
+
+#movieShowcase{
+  background-image: url(list1.png);
+  background-size: cover;
+  margin-left: 36%;
+  margin-bottom: 5%;
+  height: 480px;
+  width: 360px;
+  border-style: dotted;
+  color:white;
+  padding-left: 8%;
+  padding-top: 7%;
+}
+.movieListItems{
+  /* list-style: none; */
+  font-size: 1rem;
+}
